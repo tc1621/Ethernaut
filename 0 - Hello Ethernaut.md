@@ -1,0 +1,1 @@
+This contract just has us going through multiple functions. We can call the functions by using await contract.function(). Eventually we are told to get the password and authenticate with it.
