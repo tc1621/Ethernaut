@@ -2,7 +2,7 @@ This contract takes contributions in the form of small donations. If you have th
 
 In order to contribute we can send ```await contract.contribute.sendTransaction({value: toWei(".0001")})```
 
-To take over the contract we need to send a transaction to the contract with a value greater then 0 and have contributions greater then 0. This can be done by ```await contract.sendTransaction({value: toWei(".001")})```  
+To take over the contract we need to send a transaction to the contract with a value greater then 0 and have contributions greater then 0. This can be done by ```await contract.sendTransaction({value: toWei(".001")})```  This is because the fallback function only has those 2 checks to change the owner. So instead of sending the contract and calling the contribute function we just send data to the contract. 
 
 We can check owner by calling ```await contract.owner()``` and we can see that the owner's address is the same as ours. Therefore we can withdraw all the eth.
 
