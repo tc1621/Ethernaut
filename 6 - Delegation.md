@@ -66,3 +66,4 @@ https://ethereum.stackexchange.com/questions/24044/method-id-for-a-solidity-gene
 https://docs.soliditylang.org/en/v0.5.3/abi-spec.html#examples
 https://abi.hashex.org/#
 https://emn178.github.io/online-tools/keccak_256.html
+https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#sendtransaction
